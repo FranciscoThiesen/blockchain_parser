@@ -1,0 +1,12 @@
+- Fazer testes de cada funcao individualmente
+- Ver qual eh a melhor forma de lidar com try/except para nossa aplicacao especifica
+- Interessante comecar a pensar em digerir o json para inserir os dados de cada bloco nas tabelas corretas do sistema.
+- Fazer testes de integracao
+- Refatorar o codigo
+- Criar uma documentacao
+
+
+Algumas observacoes de coisas que precisam ser adaptadas.
+- Quando processamos um bloco temos que escrever no blockmetadata o numero do bloco. Seria interessante que essa operacao fosse atomica.
+	- Porque nao queremos processar um bloco e falhar na escrita do blockmetadata, o que obrigaria o bloco a ser parseado novamente
+
